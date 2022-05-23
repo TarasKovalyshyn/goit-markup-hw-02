@@ -1,6 +1,6 @@
 :root {
     --main-color: #212121;
-    --main-second-color:#2196F3;
+    --main-second-color: #2196F3;
     --portfolio-main-color: #212121;
     --portfolio-text-color: #757575;
 
@@ -48,6 +48,10 @@ ul {
     color: var(--main-color);
 }
 
+.header-links .header-link.current {
+    color: var(--main-second-color);
+}
+
 .header-link:hover,
 .header-link:focus {
     color: #2196F3;
@@ -60,7 +64,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: var(--main-second-color);
+    color: black;
 
 }
 
@@ -234,7 +238,8 @@ ul {
     color: #FFFFFF;
 }
 
-.footer-mail, .footer-tel {
+.footer-mail,
+.footer-tel {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
@@ -278,3 +283,4 @@ ul {
     color: var(--portfolio-text-color);
 
 }
+
