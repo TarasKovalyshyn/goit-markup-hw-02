@@ -1,22 +1,13 @@
 :root {
     --main-color: #212121;
     --main-second-color: #2196F3;
+    --mail-color: #757575;
     --portfolio-main-color: #212121;
     --portfolio-text-color: #757575;
 
 
-
-
-
-
-
-
 }
-
-
-
-
-body {
+body{
     font-family: "Roboto", sans-serif;
 
 }
@@ -28,7 +19,9 @@ body {
 ul {
     list-style: none;
 }
-
+.header-logo{
+    color: var(--main-color)
+}
 .webstudio {
     font-family: 'Raleway';
     font-weight: 700;
@@ -39,7 +32,6 @@ ul {
 }
 
 .header-link {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -54,7 +46,7 @@ ul {
 
 .header-link:hover,
 .header-link:focus {
-    color: #2196F3;
+    color: var(--main-second-color)
 }
 
 .header-mail {
@@ -63,13 +55,12 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-    color: black;
+    color: var(--mail-color)
 
 }
 
-.header-mail:hover {
-    color: #2196F3;
+.header-mail:hover, .header-mail:focus {
+    color:var(--main-second-color)
 }
 
 .header-tel {
@@ -78,11 +69,11 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    color: #757575;
+    color: var(--mail-color);
 }
 
 .header-tel:hover {
-    color: #2196F3;
+    color:var(--main-second-color)
 }
 
 /*-----------main------------*/
@@ -95,7 +86,6 @@ ul {
 }
 
 .bussines-title {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -107,10 +97,9 @@ ul {
 
 
 .bussines-button {
-    width: 200px;
-    height: 50px;
+    font-family: inherit;
     font-size: 16px;
-    background: #2196F3;
+    background: var(--main-second-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #FFFFFF;
@@ -145,7 +134,7 @@ ul {
 }
 
 .proposition-title {
-    font-family: 'Roboto';
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -157,9 +146,7 @@ ul {
 }
 
 .proposition-text {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -167,7 +154,6 @@ ul {
 }
 
 .doing-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -189,7 +175,6 @@ ul {
 }
 
 .our-team {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -200,7 +185,6 @@ ul {
 }
 
 .team-title {
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -210,9 +194,6 @@ ul {
 }
 
 .team-text {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
 
@@ -224,13 +205,14 @@ ul {
 .footer {
     background-color: #2F303A;
 }
-
+.footer-logo{
+    color: white
+}
 .footer-address {
     font-style: normal;
 }
 
 .footer-link {
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: calc(26/14);
@@ -240,8 +222,6 @@ ul {
 
 .footer-mail,
 .footer-tel {
-    font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
@@ -253,7 +233,7 @@ ul {
 
 /*---------------ПОРТФОЛІО------------------*/
 .buttons-button {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
@@ -265,7 +245,6 @@ ul {
 }
 
 .images-title {
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
@@ -274,9 +253,6 @@ ul {
 }
 
 .images-text {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 16px;
     line-height: calc(30/16);
     letter-spacing: 0.03em;
 
